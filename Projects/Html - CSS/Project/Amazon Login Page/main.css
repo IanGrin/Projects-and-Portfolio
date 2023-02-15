@@ -1,0 +1,95 @@
+body {
+    font-family: Oxygen, Sans-serif;
+}
+
+/* Header - Logo */
+.content-header img {
+    width:auto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign-in Box */
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.content-form {
+    width: 300px;
+    border: 1px solid lightgrey;
+    padding: 20px 26px;
+}
+.sign-in h2 {
+    margin-top: 1px ;
+}
+.sign-in-input {
+    display: flex;
+    flex-direction: column;
+}
+.sign-in-input > #info-input {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.sign-in-input > .btn {
+    height: 28px;
+    background-color: #DDB500;
+    border: 0.25px solid black;
+}
+.sign-in-input > .btn a {
+    text-decoration: none;
+    color: black;
+}
+.content-footer {
+    font-size: 12px;
+    font-weight: 500;
+}
+.content-footer a {
+    text-decoration: none;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.new-amazon {
+    text-align: center;
+    font-size: 12px;
+}
+.new-amazon > .create-account {
+    height: 28px;
+    width: 355px;
+    margin-bottom: 20px;
+}
+.new-amazon > .create-account a {
+    text-decoration: none;
+    color: black;
+}
+.new-amazon p {
+    margin-top: 25px;
+}
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+.bottom-footer a {
+    text-decoration: none;
+}
+.sub-footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
