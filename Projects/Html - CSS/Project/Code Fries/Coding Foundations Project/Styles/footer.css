@@ -1,0 +1,42 @@
+.footer > .footer-columns {
+    display: grid;
+    gap: 0px;
+    grid-auto-flow: column;
+    width: 100%;
+    grid-template-columns: auto;
+}
+
+.footer > .footer-columns > .footer-column-sub {
+    display: grid;
+    gap: 0px;
+    grid-auto-flow: column;
+    width: 100%;
+    grid-template-columns: 100px 90px;
+    border: 1px solid black;
+    background-color: #484848;
+    justify-content: center;
+
+}
+
+.footer-column-sub > .column {
+    font-family: "unbuntu condensed", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 12px 0px 0px 0px;
+}
+.footer-column-sub > .second {
+    font-family: "unbuntu condensed", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+.footer-color {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    grid-template-rows: 90px;
+    background-color: #282828;
+
+}
+

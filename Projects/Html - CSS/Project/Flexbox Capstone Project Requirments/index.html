@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2949948c68.js" crossorigin="anonymous"></script>
+
+<style>
+
+    body {
+        margin: 0px;
+    }
+    html {
+        font-family: 'Lato', sans-serif;
+    }
+    .container {
+        background: #33C4FF;
+    }
+    .container div {
+        display: none;
+    }
+    .container .toggle,
+    .container .my-name {
+        display: inline-block;
+    }
+    .container .link {
+        display: block;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        background: #0061DD;
+        color: white;
+    }
+    .container .link:hover,
+    .container .link:active {
+        color: white;
+        background: #8900DD;
+    }
+    .container .my-name {
+        width: 10em;
+        text-align: center;
+        padding: 1em;
+        color: white;
+    }
+    .container a {
+        text-decoration: none;
+    }
+    .container .toggle {
+        padding: 1em;
+        color: #0061DD;
+    }
+    @media (min-width: 48em) {
+        .container {
+            display: flex;
+        }
+        .container .nav-bar-left, 
+        .container .nav-bar-right {
+            display: flex;
+            flex: 1;
+        }
+        .container .link {
+            width: auto;
+        }
+        .container .nav-bar-right {
+            justify-content: flex-end;
+        }
+        .container .toggle {
+            display: none;
+        }
+    }
+    @media (min-width: 48em) {
+        .container div {
+            display: flex;
+        }
+    }
+     @media (max-width: 48em) {
+        .container.active .toggle {
+            background: #0061DD;
+            color: white;
+        }
+        .container .my-name {
+            text-align: left;
+        }
+        .container.active div {
+            display: block;
+        }
+    }
+</style>
+
+</head>
+
+    <body>
+
+        <div class="container">
+            <a href="#" class="toggle" id="navHamburger">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" class="my-name">Ian Merritt</a>
+
+            <div class="nav-bar-left">
+                <a href="#" class="link">Link 1</a>
+                <a href="#" class="link">Link 2</a>
+            </div>
+                
+            <div class="nav-bar-right">               
+                <a href="#" class="link">Link 3</a>
+            </div>      
+        </div> 
+           
+    </body>
+
+    <script>
+        const navHamburger = document.querySelector('#navHamburger');
+        navHamburger.addEventListener('click', (e) => {
+            navHamburger.parentElement.classList.toggle('active');
+        })
+    </script>
+
+</html>

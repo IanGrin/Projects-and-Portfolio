@@ -1,0 +1,52 @@
+.main-information-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+}
+
+/* Left Side */
+
+.main-information-section > .left-side {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-info {
+    font-family: "unbuntu condensed", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.bottom-info {
+    font-family: "unbuntu condensed", sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+/* Right Side */
+
+.right-side > .projects-text {
+    font-family: "unbuntu condensed", sans-serif;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.right-side > .projects-text > .first-half {
+    margin-left: 0px;
+    color: white;
+}
+
+.right-side > .projects-text > .second-half {
+    margin-left: 6px;
+    color: turquoise;
+}
+
+.right-side > .codepen-image img {
+    width: 650px;
+    height: auto;
+    box-shadow: -10px -10px 80px;
+}

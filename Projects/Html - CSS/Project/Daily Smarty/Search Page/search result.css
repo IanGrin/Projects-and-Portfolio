@@ -1,0 +1,69 @@
+body {
+    font-family: 'Lato', sans-serif;
+            background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.search_dailysmarty_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.search_dailysmarty_logo img {
+    width: 100px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.search_dailysmarty {
+    display: grid;
+    grid-template-columns: 1/-1;
+}
+
+.search_dailysmarty input {
+        font-size: 2em;
+        font-family: "Font Awesome\ 5 Free", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: #585858;
+        box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
+        border: 0px solid transparent;
+        border-radius: 0.5rem;
+        width: 1200px;
+        height: 60px;
+}
+
+.search_dailysmarty p {
+    color: #b3b3b3;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-top: 2.3rem;
+    text-align: right;
+}
+
+.bottom_wrapper {
+    margin-top: 50px;
+}
+
+.title_results_grid h2 {
+    font-size: 1em;
+    color: #0079ff;
+    margin-top: 20px;
+}
+
+.title_results_grid h1 {
+    color: #b3b3b3;
+    font-size: 1.3em;
+}
+
+.title_results_grid p {
+    color: #b3b3b3;
+}
+
+.sub_title_results_grid {
+    display: flex;
+    justify-content: space-between;
+}
