@@ -89,6 +89,23 @@ body {
     text-align: center;
     font-size: 12px;
 }
+.new-amazon:after {
+    content: "";
+    width: 355px;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: 22px;
+    z-index: 2;
+}
+.new-amazon-line p {
+    display: grid;
+    grid-template-columns: 100px;
+    justify-content: center;
+}
 
 
 

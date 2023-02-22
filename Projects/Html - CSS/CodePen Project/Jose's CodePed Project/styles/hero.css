@@ -1,0 +1,73 @@
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: #36383f;
+    color: lightgray;
+}
+
+/* Hero Section Left */
+.hero-section > .left-column {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.hero-section > .left-column > .par {
+    font-size: 2.2em;
+    margin-bottom: 2em;
+}
+
+.hero-section > .left-column > .par p em {
+    font-weight: 900;
+    font-style: inherit;
+}
+
+.hero-section > .left-column > .center-buttons > .button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-section > .left-column > .center-buttons > .button button {
+    padding: 25px;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.hero-section > .left-column > .center-buttons > .button > .sign  {
+    background-color: #45A669;
+    color: black;
+}
+
+.hero-section > .left-column > .center-buttons > .button > .learn {
+    background-color: black;
+    color: white;
+}
+
+/* Hero Section Right */
+.hero-section > .right-column {
+    margin-top: 5em;
+    border-bottom: 0.5em solid black;
+}
+
+.hero-section > .right-column h3 {
+    margin-bottom: 0.2em;
+    margin-left: 1em;
+}
+
+.hero-section > .right-column h3 em {
+    color: #68D4EA;
+    font-weight: bolder;
+    font-style: inherit;
+}
+
+.hero-section > .right-column img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    height: 500px;
+}

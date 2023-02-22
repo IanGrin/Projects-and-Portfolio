@@ -1,0 +1,93 @@
+/* Nav-wrapper */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1em;
+    height: 5em;
+    background-color: black;
+}
+
+.nav-wrapper > .nav-logo {
+    margin-left: 1em;
+}
+
+.nav-wrapper > .nav-logo img {
+    width: 200px;
+    padding: 15px;
+}
+
+/* Center Nav */
+.nav-wrapper > .center-nav {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 5em;
+}
+
+.nav-wrapper > .center-nav > .explore {
+    color: #cfac77;
+    margin: 2px;
+    padding-left: 18px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-wrapper > .center-nav > .links-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+}
+
+.nav-wrapper > .center-nav > .links-wrapper >.nav-links {
+    padding-bottom: 20px;
+}
+
+.nav-wrapper > .center-nav > .links-wrapper >.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    margin: 20px;
+    text-align: center;
+}
+
+.nav-wrapper > .center-nav > .links-wrapper > .spark {
+    color: grey;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-wrapper > .center-nav > .links-wrapper > .spark i {
+    margin-left: 0.8em;
+}
+
+/* Right Nav */
+.nav-wrapper > .right-nav >.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrapper > .right-nav > .button > .btns {
+    background-color: #36383f;
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.nav-wrapper > .right-nav > .button > .btns i {
+    color: #45A669;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+.nav-wrapper > .right-nav > .button > i {
+    color: grey;
+    font-size: 1.6em;
+    margin-right: 15px;
+}
