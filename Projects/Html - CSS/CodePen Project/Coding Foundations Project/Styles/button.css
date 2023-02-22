@@ -1,0 +1,45 @@
+.btn {
+    background-color: grey;
+    color: white;
+    font-size: 1em;
+    padding: 5px 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+    width: 110px;
+    padding: 10px;
+}
+
+.login-link > .fas fa-angle-down {
+    color: mediumspringgreen;
+}
+
+.main-button {
+    display: grid;
+    grid-template-columns: 275px 200px;
+}
+
+.main-button > .sign-up-button > .sign-up {
+    background-color: mediumseagreen;
+    color: black;
+    font-size: 30px;
+    padding: 5px 15px;
+    border: 1px solid mediumseagreen;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.main-button > .learn-more-button > .learn-more {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+
